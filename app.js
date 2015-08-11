@@ -1,6 +1,9 @@
-var MongoClient = require('mongodb').MongoClient,assert = require('assert');
+var MongoClient = require('mongodb').MongoClient
+    , assert = require('assert');
 
 // Connection URL
+// 详细描述参考这里
+// http://mongodb.github.io/node-mongodb-native/2.0/tutorials/connecting/
 var url = 'mongodb://localhost:27017/test';
 
 // Use connect method to connect to the Server
